@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Leworthy Carpentry & Joinery | South Molton</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>David Leworthy</h1>
+                <p>Carpentry & Joinery</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>Bespoke Woodworking & Expert Joinery in South Molton</h2>
+            <p>Crafting high-quality, made-to-measure solutions for your home. From custom kitchens and built-in wardrobes to tailored storage and traditional joinery across North Devon.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Request Free Consultation</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <div class="title-divider"></div>
+                <p>Specialist carpentry services executed with precision, care, and attention to detail.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🪵</div>
+                    <h3>Bespoke Joinery</h3>
+                    <p>Custom-built doors, windows, staircases, and unique timber features designed to fit your space perfectly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍳</div>
+                    <h3>Kitchen Installations</h3>
+                    <p>Complete professional kitchen fitting, transforming the heart of your home with beautiful cabinetry and precise finishings.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>Smart Storage Solutions</h3>
+                    <p>Maximize your space with tailored hallway storage, built-in wardrobes, alcove shelving, and smart under-stairs cupboards.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>First & Second Fix</h3>
+                    <p>Expert structural timber work including roofing, stud walls, joists, alongside precise skirtings, architrave, and door hanging.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Value Section -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Why Choose David Leworthy?</h2>
+                <div class="title-divider left"></div>
+                <p>Based in <strong>South Molton</strong>, we take immense pride in delivering top-tier workmanship across North Devon. Combining traditional craftsmanship with modern techniques, we ensure every project is durable, beautiful, and tailored strictly to our client's vision.</p>
+                <ul class="features-list">
+                    <li>✓ Local, trusted South Molton craftsman</li>
+                    <li>✓ Dedicated to premium quality timber and materials</li>
+                    <li>✓ Reliable timelines and transparent pricing</li>
+                    <li>✓ Completely bespoke, made-to-measure designs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Start Your Project Today</h2>
+                <div class="title-divider"></div>
+                <p>Get in touch for professional advice, to discuss your ideas, or to arrange a free, no-obligation quotation.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you! This is a demo form submission.');">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="07123 456789">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="5" required placeholder="Describe what you are looking to build (e.g., custom alcove units, kitchen refit)..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 David Leworthy Carpentry & Joinery. All rights reserved.</p>
+            <p>Based in South Molton, Devon</p>
+        </div>
+    </footer>
+
+</body>
+</html>
